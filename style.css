@@ -1,7 +1,7 @@
 html {
     scroll-behavior: smooth;
     
-  }
+}
     
 :root {
     --bs-primary-rgb: 2, 37, 80; 
@@ -12,5 +12,3 @@ html {
     --bs-danger-rgb: 245, 93, 62;
     --bs-custom-rgb: 199, 209, 200;
 }
-
-
