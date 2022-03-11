@@ -8,7 +8,7 @@ html {
     --bs-secondary-rgb: 219, 43, 57; /* piros */
     --bs-success-rgb: 48, 107, 52; /* zöld */
     --bs-info-rgb: 27, 64, 121; /* világos kék */
-    --bs-warning-rgb: 243, 167, 18; /*  */
-    --bs-danger-rgb: 245, 93, 62; /* */
-    --bs-custom-rgb: 199, 209, 200; /* */ 
+    --bs-warning-rgb: 243, 167, 18; /* citromsárga */
+    --bs-danger-rgb: 245, 93, 62; /* narancssárga */
+    --bs-custom-rgb: 199, 209, 200; /* fehér */ 
 }
