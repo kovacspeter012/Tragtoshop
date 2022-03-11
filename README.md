@@ -1,2 +1,2 @@
 # Tragtoshop
-stiloba ne nyuj bele
+stiloba ne nyuj bele 
