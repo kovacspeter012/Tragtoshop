@@ -18,3 +18,7 @@ a {
     text-decoration: none;
     color: rgb(199, 209, 200,)
 }
+
+.align-justify{
+    text-align: justify;
+}
