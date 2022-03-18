@@ -10,62 +10,75 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
 </head>
 <body>
-    <div class="container">
-        <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-primary">
-            <div class="container-fluid">
-              <a class="navbar-brand text-white" href="index.html">Főoldal</a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
-                  <li class="nav-item">
-                    <a class="nav-link text-white" href="webaruhaz.html">Webáruház</a>  
-                  </li>
-                  <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                      Akciós termékek
-                    </a>
-                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                      <li><a class="dropdown-item text-primary" href="#">traktor1</a></li>
-                      <li><a class="dropdown-item text-primary" href="#">traktor2</a></li>
-                      <li><a class="dropdown-item text-primary" href="#">traktor3</a></li>
-                    </ul>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link active text-white" aria-current="page" href="#">Rendelés</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link active text-white" aria-current="page" href="#">Műszaki hiba</a>
-                  </li>
-                  <li>
-                    <a class="nav-link active text-white" aria-current="page" href="rendeles.html">Rendelés</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link active text-white" aria-current="page" href="muszaki.html">Műszaki hiba</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link active text-white" aria-current="page" href="tragtoohistory.html">Történet</a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-         </nav> <!--  navbar  -->
-
+  <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-primary">
+    <div class="container-fluid">
+      <a class="navbar-brand text-white" href="index.html">Főoldal</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link text-white" href="webaruhaz.html">Webáruház</a>  
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Akciós termékek
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item text-primary" href="#">traktor1</a></li>
+              <li><a class="dropdown-item text-primary" href="#">traktor2</a></li>
+              <li><a class="dropdown-item text-primary" href="#">traktor3</a></li>
+            </ul>
+          </li>
+          <li>
+            <a class="nav-link active text-white" aria-current="page" href="rendeles.html">Rendelés</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active text-white" aria-current="page" href="muszaki.html">Műszaki hiba</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active text-white" aria-current="page" href="tragtoohistory.html">Történet</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>  
+  <div class="container bg-danger">
         <h1>Műszaki meghibásodás</h1>
 
         <p>Műszaki meghibásodása van? Semmi gond, mert mi garancia függvényében ingyen megjavítjuk önnek bármikor. Töltse ki az alábbi kérdőívet:</p>
 
+         
         <form>
           <label for="name">Teljes név:</label>
-          <input type="text" id="name">
-          
+          <input type="text" id="name" class="mb-3" >
+
+          <br >
+
           <label for="email">Email:</label>
-          <input type="email" id="email"> 
-          
+          <input type="email" id="email" class="mb-3">
+
+          <br>
+
           <label for="orderid">Rendelési azonosító:</label>
-          <input type="number" id="orderid">
+          <input type="number" id="orderid" class="mb-3">
+
+          <br>
+
+          <label for="date">Rendelés dátuma:</label>
+          <input type="date" id="date" class="mb-3">
+          
+          <br>
+
+          <input type="submit" value="Elküldés">
+          <input type="reset" value="Űrlap törlése" class="mb-3">
+
+          <p>
+            Miután javítási kérését elküldte egy emailt fog kapni az az napi vásárlásáról. Amennyiben elírta keressen minket a <span class="fst-italic fw-bold">+36 1 233 5858</span> -as telefonszámon.
+          </p>
         </form>
+        
 
       </div> <!--container -->
     
