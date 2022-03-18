@@ -49,14 +49,24 @@
             <form>
                 <div class="mb-3 col-xl-2 my-4">
                   <label for="nev" class="form-label">Név</label>
-                  <input type="text" class="form-control col-xl-2" id="nev" aria-describedby="emailHelp">
+                  <input type="text" class="form-control col-xl-2" id="nev">
                 </div>
 
 
                   <div class="mb-3 col-xl-2 my-4">
                   <label for="email" class="form-label">E-mail cím</label>
-                  <input type="password" class="form-control col-xl-2" id="email" contenteditable>
-                  <div id="emailHelp" class="form-text">E-mail címét harmadik feleknek fogjuk sok pénzért eladni, de ön ezt nem fogja tudni.</div>
+                  <input type="email" class="form-control col-xl-2" id="email" contenteditable>
+                  <div id="emailHelp" class="form-text text-primary">E-mail címét harmadik feleknek fogjuk sok pénzért eladni, de ön ezt nem fogja tudni.</div>
+                </div>
+
+                <div class="mb-3 col-xl-3 my-4">
+                  <label for="nev" class="form-label">Lakcím</label>
+                  <input type="text" class="form-control col-xl-2" id="lakcim">
+                </div>
+
+                <div class="mb-3 col-xl-2 my-4">
+                  <label for="nev" class="form-label">Telefonszám</label>
+                  <input type="tel" class="form-control col-xl-2" id="telszam" placeholder="pl. +36 20 123 1452">
                 </div>
 
                 
@@ -85,11 +95,11 @@
                   
 
                 <div class="mb-3 form-check">
-                  <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                  <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                  <input type="checkbox" class="form-check-input mt-3" id="exampleCheck1">
+                  <label class="form-check-label mt-3" for="exampleCheck1">Felelősséget vállalok a tragto által okozott károkért, esetleges halálesetekért.</label>
                 </div>
                 <p>Végösszeg:</p>
-                <button type="submit" class="btn btn-primary">Submit</button>
+                <button type="submit" class="btn btn-primary"><a href="index.html" class="text-light">Submit</a></button>
               </form>
 
 
