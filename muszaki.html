@@ -43,42 +43,51 @@
         </ul>
       </div>
     </div>
-  </nav>  
+  </nav> <!-- navbar -->
   <div class="container bg-danger">
         <h1>Műszaki meghibásodás</h1>
 
         <p>Műszaki meghibásodása van? Semmi gond, mert mi garancia függvényében ingyen megjavítjuk önnek bármikor. Töltse ki az alábbi kérdőívet:</p>
 
-         
+      <div class="row">  
         <form>
-          <label for="name">Teljes név:</label>
-          <input type="text" id="name" class="mb-3" >
+          <div class="mb-3 col-xl-2 my-4">
+            <label for="nev" class="form-label fw-bold">Név</label>
+            <input type="text" class="form-control col-xl-2" id="nev">
+          </div>
 
-          <br >
+          <div class="mb-3 col-xl-2 my-4">
+            <label for="email" class="form-label fw-bold">E-mail cím</label>
+            <input type="email" class="form-control col-xl-2" id="email" contenteditable>
+          </div>
 
-          <label for="email">Email:</label>
-          <input type="email" id="email" class="mb-3">
+          <div class="mb-3 col-xl-3 my-4">
+            <label for="date" class="form-label fw-bold">Rendelés dátuma:</label>
+            <input type="date" id="date" class="form-control col-xl-2">
+          </div>
 
-          <br>
+          <div class="mb-3 col-xl-3 my-4">
+            <label for="orderid" class="form-label fw-bold">Rendelési azonosító:</label>
+            <input type="number" id="orderid" class="form-control col-xl-2">
+          </div>
 
-          <label for="orderid">Rendelési azonosító:</label>
-          <input type="number" id="orderid" class="mb-3">
+          <div class="mb-4 col-xl-3 my-4">
+            <label for="lairas" class="form-label fw-bold">Rövid leírás a problémáról:</label>
+            <textarea name="leiras" id="leiras" cols="30" rows="3" class="form-control col-xl-2">
 
-          <br>
+            </textarea>
+          </div>
 
-          <label for="date">Rendelés dátuma:</label>
-          <input type="date" id="date" class="mb-3">
-          
-          <br>
-
-          <input type="submit" value="Elküldés">
+          <input type="submit" value="Elküldés" onclick="alert('Az űrlap elküldése sikeres')">
           <input type="reset" value="Űrlap törlése" class="mb-3">
 
           <p>
-            Miután javítási kérését elküldte egy emailt fog kapni az az napi vásárlásáról. Amennyiben elírta keressen minket a <span class="fst-italic fw-bold">+36 1 233 5858</span> -as telefonszámon.
+            Miután javítási kérését elküldte egy emailt fog kapni az az napi vásárlásáról. Amennyiben az email rossz rendelést ábrázol keressen minket a <span class="fst-italic fw-bold">+36 1 233 5858</span> -as telefonszámon. 
           </p>
         </form>
+      </div>
         
+      <a href="webaruhaz.html" class="text-light">Vissza a webáruházba</a>
 
       </div> <!--container -->
     
