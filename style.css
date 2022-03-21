@@ -22,3 +22,11 @@ a {
 .align-justify{
     text-align: justify;
 }
+.footer {
+    color: white;
+}
+
+.footer:hover{
+    color: chartreuse;
+    text-decoration: none;
+}
