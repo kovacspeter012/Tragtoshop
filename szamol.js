@@ -4,3 +4,4 @@ function vegosszeg() {
 
     document.querySelector('#osszeg').innerText = a + b - 1;
 }
+

@@ -119,6 +119,7 @@
                     <option value= '250000' id="Keminyes">Keminyes</option>
                     <option value= '500000' id="tetotlen">Tető nélkülli</option>
                     <option value= '870000' id="zonbi">Zonbiapkolapxis</option>
+                    <option value= '29700000' id="gyilkolo">Gyilkológép</option>
                 </select>
 
                 <label for="extra" class="me-2"> <b> Extrák kiválasztása: </b> </label>
@@ -133,6 +134,7 @@
                     <option value="1000000" id="lanctalp">Lánctalpp</option>
                     <option value="200000" id="ember">Saját akaratából dolgozó ember</option>
                     <option value="800000" id="fegyver">Géppuksa</option>
+                    <option value="600000" id="tarto">Seprűtartó</option>
                   </select> 
                   
 
@@ -143,9 +145,30 @@
                 <button type="button" class="btn btn-primary" onclick="vegosszeg()">Végösszeg számolása</button>
                 <div class="w-50 mx-auto mt-2">
                   Végösszeg: <span id="osszeg"></span>
+
               </div>
                 <button type="submit" class="btn btn-primary"><a href="sikeresrendeles.html" class="text-light">Rendelés leadása</a></button>
               </form>
+
+              <button onclick="Video()">Fizetés AliPay használatával</button>
+
+<div id="vid" class="mx-auto">
+<video src="images/ssstiktok_1648189858 (online-video-cutter.com) (2).mp4" controls loop autplay class="mx-auto"></video>
+</div>
+
+
+
+<script>
+function Video() {
+  var x = document.getElementById("vid");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>
+
 
 
 
