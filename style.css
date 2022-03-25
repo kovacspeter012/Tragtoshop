@@ -36,3 +36,8 @@ a {
     border-radius: 1rem;
 }
 
+.helloka{
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+}
