@@ -113,7 +113,7 @@
                 
                 <label for="tragto" class="me-2"> <b> Tragto modell kiválasztása </b> </label>
                 <select id="tragto" name="tragto" class="me-2 pe-3">
-                    <option value= '2000000' id="zold"selected>Zöld</option>
+                    <option value= '2000000' id="zold">Zöld</option>
                     <option value= '1000000' id="kek">Kék</option>
                     <option value= '1000000' id="piros" >Piros</option>
                     <option value= '700000' id="torott">Törött</option>
@@ -142,41 +142,33 @@
                     <option value="800000" id="fegyver">Géppuksa</option>
                     <option value="600000" id="tarto">Seprűtartó</option>
                     <option value="1200000" id="gonb">Gonba tenyészet</option>
+                    <option value="8500000" id="bonba">Hidrogénbomba</option>
+                    <option value="4700000" id="raketa">Atomrakéta</option>
+                    <option value="870000" id="porszi">Detroiti robotporszívó</option>
                   </select> 
                   
 
                 <div class="mb-3 form-check">
                   <input type="checkbox" class="form-check-input mt-3" id="exampleCheck1">
-                  <label class="form-check-label mt-3" for="exampleCheck1">Felelősséget vállalok a tragto által okozott károkért, esetleges halálesetekért.</label>
+                  <label class="form-check-label mt-3" for="exampleCheck1"><b>Felelősséget vállalok a tragto által okozott károkért, esetleges halálesetekért.</label></b> 
                 </div>
                 <button type="button" class="btn btn-primary" onclick="vegosszeg()">Végösszeg számolása</button>
-                <div class="w-50 mx-auto mt-2">
-                  Végösszeg: <span id="osszeg"></span>
-
-              </div >
-                <button type="submit" class="btn btn-primary"><a href="sikeresrendeles.html" class="text-light">Rendelés leadása</a></button>
+          
+                <div class="p-3 bg-dark text-light rounded w-25 my-1 mb-4"> Végösszeg: <span id="osszeg"></span> </div>
+                
               </form>
 
-              <button type="submit" class="btn btn-primary" onclick="Video()">Fizetés AliPay használatával</button>
+              <button type="submit" class="btn btn-primary mb-4" onclick="Video() ;"><a class="text-light" href="#vid"> Fizetés AliPay&trade; használatával </a></button>
 
 <div id="vid" class="mx-auto">
-<video src="images/ssstiktok_1648189858 (online-video-cutter.com) (2).mp4" controls loop autplay class="mx-auto"></video>
+<video src="images/ssstiktok_1648189858 (online-video-cutter.com) (2).mp4" controls loop autoplay class="mb-5" width="800px"></video> 
+<button type="submit" class="btn btn-primary w-100 ms-1" onclick=" alert('Sikeres rendelés! Tragtoja 660 munkanapon belül érkezik.')"><a href="index.html" class="text-light">Rendelés leadása</a></button>
 </div>
 
 
 
-<script>
-function Video() {
-  var x = document.getElementById("vid");
-  if (x.style.display === "none") {
-    x.style.display = "block";
-  } else {
-    x.style.display = "none";
-  }
-}
-</script>
 
-<div class="lablec text-center p-2 mt-1 bg-dark">
+<div class="lablec text-center mt-3 p-2 bg-dark">
   <div class="footer">
     <p>Elérhetőségeink: Pápa, Külső Veszprémi út 60, 8500</p>
   </div>

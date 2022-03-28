@@ -12,6 +12,15 @@ function insertDecimal(num) {
  function insertDecimal2(num) {
     return Number((num / 1000).toFixed(3));
  }
- 
-//  insertDecimal(99552) //995.52
-//  insertDecimal("501") //5.01
+ //vegosszeg
+
+ function Video() {
+   var x = document.getElementById("vid");
+   if (x.style.display === "none") {
+     x.style.display = "block";
+   } else {
+     x.style.display = "none";
+   }
+ }
+//  video
+
