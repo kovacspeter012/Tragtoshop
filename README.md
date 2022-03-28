@@ -4,4 +4,5 @@ Oldalt készítette egy iskolai projekt részeként:
 - Kovács Péter
 - Szemethy Levente
 - Roncz Olivér
+
 Oldalra vezető [link](https://kovacspeter012.github.io/Tragtoshop/) . 
