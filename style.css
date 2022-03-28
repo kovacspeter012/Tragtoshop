@@ -29,6 +29,7 @@ a {
 .footer:hover{
     color: chartreuse;
     text-decoration: none;
+    transition: 0.3s;
 }
 
 #picture{
