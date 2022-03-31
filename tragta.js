@@ -18,13 +18,14 @@ function insertDecimal2(num) {
 }
 //vegosszeg
 
-function Video() {
-  var x = document.getElementById("vid");
-  if (x.style.display === "none") {
-    x.style.display = "block";
-  } else {
-    x.style.display = "none";
-  }
-}
+// function Video() {
+//   var x = document.getElementById("vid");
+//   if (x.style.display === "none") {
+//     x.style.display = "block";
+//   } 
+//   else {
+//     x.style.display = "none";
+//   }
+// }
 //  video
 
