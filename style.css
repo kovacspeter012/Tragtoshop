@@ -4,7 +4,7 @@ html {
 }
 
 :root {
-     --bs-primary-rgb: 2, 37, 80; /* kék */
+    --bs-primary-rgb: 2, 37, 80; /* kék */
     --bs-secondary-rgb: 219, 43, 57; /* piros */
     --bs-success-rgb: 48, 107, 52; /* zöld */
     --bs-info-rgb: 35, 151, 248; /* világos kék */
@@ -39,7 +39,7 @@ a {
 
 .helloka{
     position: absolute;
-    bottom: 0px;
+    bottom: 10px;
     width: 100%;
 }
 
